@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.marst, .baner .banerlinearea {
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.baner_img {
+  width: 100vw;
+  height: 754px;
+}
+
+.logo {
+  cursor: pointer;
+}
+.logo h1 {
+  color: #393939;
+  font-family: Raleway;
+  font-size: 30.062px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 45.093px */
+}
+
+.baner {
+  overflow: hidden;
+  position: relative;
+}
+.baner .banerlinearea {
+  z-index: 3;
+  position: absolute;
+  width: 90vw;
+  top: 0%;
+  overflow: hidden;
+}
+.baner .banerlinearea .navb {
+  color: #393939;
+  cursor: pointer;
+}
+.baner .orangebtn {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  border: 1px solid #c4730a;
+  background: #c4730a;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.circle {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 982.885px;
+  height: 982.885px;
+  border-radius: 982.885px;
+  background: #fff;
+  box-shadow: 1.201px 0.084px 15.819px 0px rgba(158, 158, 158, 0.04), 5.283px 0.37px 32.756px 0px rgba(158, 158, 158, 0.06), 12.968px 0.909px 65.325px 0px rgba(158, 158, 158, 0.08), 24.976px 1.751px 128.044px 0px rgba(158, 158, 158, 0.1), 42.027px 2.946px 235.431px 0px rgba(158, 158, 158, 0.12), 64.841px 4.545px 402px 0px rgba(158, 158, 158, 0.16);
+  left: -250.214px;
+  top: -114.442px;
+}
+.circle h1 {
+  color: #4b4b4b;
+  font-family: Raleway;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.48px;
+}
+.circle p {
+  color: #612b00;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.circle .circle_txt {
+  transform: translatex(314px);
+  display: flex;
+  width: 560px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.logos .lotos_title {
+  color: #393939;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.24px;
+}/*# sourceMappingURL=styles.css.map */
