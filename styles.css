@@ -122,4 +122,47 @@
   font-weight: 700;
   line-height: 140%; /* 33.6px */
   letter-spacing: -0.24px;
+}
+
+.mod_tec h3 {
+  color: #c4730a;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.mod_tec h1 {
+  color: #393939;
+  width: 616px;
+  height: 116 px;
+  /* Desktop/heading-size-large */
+  font-family: Raleway;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  letter-spacing: -0.48px;
+}
+
+.mod_tec_box h4 {
+  color: var(--Gray-Scale-800, #4b4b4b);
+  /* Desktop/heading-size-regular */
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 33.6px */
+  letter-spacing: -0.24px;
+}
+.mod_tec_box p {
+  color: var(--Gray-Scale-800, #4b4b4b);
+  /* Desktop/text-regular */
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
 }/*# sourceMappingURL=styles.css.map */
