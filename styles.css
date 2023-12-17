@@ -103,4 +103,23 @@
   font-weight: 700;
   line-height: 140%;
   letter-spacing: -0.24px;
+}
+
+.greyline {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+.greyline .gltxt {
+  color: #393939;
+  /* Desktop/heading-size-regular */
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 33.6px */
+  letter-spacing: -0.24px;
 }/*# sourceMappingURL=styles.css.map */
