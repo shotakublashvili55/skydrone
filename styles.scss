@@ -70,11 +70,12 @@ body {
   }
 
   .orangebtn {
+    width: fit-content;
     display: flex;
     padding: 12px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    // gap: 16px;
     border-radius: 4px;
     border: 1px solid $mainco;
     background: $mainco;
@@ -138,7 +139,7 @@ body {
 //part2
 
 .logos {
-  .lotos_title {
+  .logos_title {
     color: $txtcol;
     text-align: center;
 
