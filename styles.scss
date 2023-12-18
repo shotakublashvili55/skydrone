@@ -9,6 +9,10 @@ $mainco: #c4730a;
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .orangebtn {
   width: 133px;
   height: 48px;
@@ -234,7 +238,7 @@ $mainco: #c4730a;
   position: relative;
   margin-top: 128px;
   width: $fullwd;
-  height: 850px;
+  //   height: 850px;
   // padding: 128px 64px 160px 64px;
   justify-content: center;
   flex-shrink: 0;
@@ -270,12 +274,39 @@ $mainco: #c4730a;
 }
 
 .apps {
-  display: flex;
   width: $fullwd;
   height: 242px;
-  justify-content: space-between;
-  align-items: center;
   background-color: #b35911;
+
+  h1 {
+    @extend .marst;
+    color: #FCF6F0;
+
+/* Desktop/heading-size-medium */
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 38.4px */
+letter-spacing: -0.32px;
+  }
+
+  p {
+    @extend .marst;
+    color: #FCF6F0;
+    width: 599.424px;
+/* Desktop/text-medium */
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+  }
+
+  .stories {
+    cursor: pointer;
+    @extend .marst;
+  }
 }
 
 .cont {
@@ -313,14 +344,15 @@ $mainco: #c4730a;
 .address {
   .adrvalue {
     p {
-        color: var(--Gray-Scale-800, #4B4B4B);
+      color: var(--Gray-Scale-800, #4b4b4b);
 
-        /* Desktop/text-regular */
-        font-family: Raleway;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%; /* 24px */}
+      /* Desktop/text-regular */
+      font-family: Raleway;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 24px */
+    }
   }
 
   img {
@@ -340,7 +372,35 @@ $mainco: #c4730a;
   }
 }
 footer {
-    margin-top: 160px;
-    background-color: #4B4B4B;
-    height: 398px;
+  margin-top: 160px;
+  background-color: #4b4b4b;
+  height: 398px;
+
+   .foo {
+    @extend .marst;
+   }
+}
+
+.footertxt {
+  color: var(--white-1000, #FFF);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 24px */
+}
+
+.lastline {
+  @extend .marst;
+    color: #F3F3F3;
+
+/* Desktop/text-small */
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+border-top: 1px solid #5E5E5E;
+padding-top: 32px;
+padding-bottom: 32px;
 }
