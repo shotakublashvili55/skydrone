@@ -1,13 +1,14 @@
 @media (max-width: 500px) {
   .sp_fl {
-    width: 100%;
-    background-color: gold;
+    /* width: 100%; */
+    width: auto;
+    /* background-color: gold; */
     display: flex;
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
-
     margin-left: 0;
+    height: auto;
   }
   .hide {
     display: none !important;
@@ -18,10 +19,4 @@
     height: fit-content !important;
   }
 }
-  /* .sp_wif {
-    width: 100vw;
-    height: fit-content !important;
-    display: flex;
-    justify-content: center !important;
-  }
-} */
+
