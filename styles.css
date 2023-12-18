@@ -23,8 +23,10 @@ body {
   cursor: pointer;
 }
 
-.marst, .lastline, footer .foo, .mapandcontacts, .cont, .apps .stories, .apps p, .apps h1, .leftm,
-.avatars, .baner .banerlinearea {
+.marst, .lastline, footer .foo, .mapandcontacts, .apps .stories, .apps p, .apps h1, .leftm,
+.rightm,
+.avatars,
+.cont, .baner .banerlinearea {
   margin-left: 64px;
   margin-right: 64px;
 }
@@ -227,7 +229,7 @@ body {
   background-color: #b35911;
 }
 .apps h1 {
-  color: #FCF6F0;
+  color: #fcf6f0;
   /* Desktop/heading-size-medium */
   font-family: Raleway;
   font-size: 32px;
@@ -237,7 +239,7 @@ body {
   letter-spacing: -0.32px;
 }
 .apps p {
-  color: #FCF6F0;
+  color: #fcf6f0;
   width: 599.424px;
   /* Desktop/text-medium */
   font-family: Raleway;
@@ -302,7 +304,7 @@ footer {
   height: 398px;
 }
 .footertxt {
-  color: var(--white-1000, #FFF);
+  color: var(--white-1000, #fff);
   font-family: Raleway;
   font-size: 16px;
   font-style: normal;
@@ -311,14 +313,14 @@ footer {
 }
 
 .lastline {
-  color: #F3F3F3;
+  color: #f3f3f3;
   /* Desktop/text-small */
   font-family: Raleway;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 21px */
-  border-top: 1px solid #5E5E5E;
+  border-top: 1px solid #5e5e5e;
   padding-top: 32px;
   padding-bottom: 32px;
 }/*# sourceMappingURL=styles.css.map */

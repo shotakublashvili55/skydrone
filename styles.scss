@@ -228,7 +228,10 @@ body {
 }
 
 .leftm,
-.avatars {
+.rightm,
+.avatars,
+.cont {
+ 
   @extend .marst;
 }
 
@@ -280,27 +283,27 @@ body {
 
   h1 {
     @extend .marst;
-    color: #FCF6F0;
+    color: #fcf6f0;
 
-/* Desktop/heading-size-medium */
-font-family: Raleway;
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%; /* 38.4px */
-letter-spacing: -0.32px;
+    /* Desktop/heading-size-medium */
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+    letter-spacing: -0.32px;
   }
 
   p {
     @extend .marst;
-    color: #FCF6F0;
+    color: #fcf6f0;
     width: 599.424px;
-/* Desktop/text-medium */
-font-family: Raleway;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 30px */
+    /* Desktop/text-medium */
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
   }
 
   .stories {
@@ -376,31 +379,31 @@ footer {
   background-color: #4b4b4b;
   height: 398px;
 
-   .foo {
+  .foo {
     @extend .marst;
-   }
+  }
 }
 
 .footertxt {
-  color: var(--white-1000, #FFF);
-font-family: Raleway;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%; /* 24px */
+  color: var(--white-1000, #fff);
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
 }
 
 .lastline {
   @extend .marst;
-    color: #F3F3F3;
+  color: #f3f3f3;
 
-/* Desktop/text-small */
-font-family: Raleway;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 21px */
-border-top: 1px solid #5E5E5E;
-padding-top: 32px;
-padding-bottom: 32px;
+  /* Desktop/text-small */
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  border-top: 1px solid #5e5e5e;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
