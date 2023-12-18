@@ -324,4 +324,8 @@ footer {
   border-top: 1px solid #5e5e5e;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.onlysp {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */
