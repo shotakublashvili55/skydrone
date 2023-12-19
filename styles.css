@@ -303,6 +303,7 @@ footer {
   margin-top: 160px;
   background-color: #4b4b4b;
   height: 398px;
+  margin-bottom: 0;
 }
 .footertxt {
   color: var(--white-1000, #fff);
